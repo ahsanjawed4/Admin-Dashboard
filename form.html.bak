@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>kavi-admin-dashboard-template</title>
+    <!-- Custom fonts for this Admin Dashboard-->
+    <!--<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <!-- Custom styles for Admin Dashboard-->
+    <link href="./dist/custom/scss/style.css" rel="stylesheet">
+    <link href="./dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://kit.fontawesome.com/92b19ecc37.js" crossorigin="anonymous"></script>
+</head>
+<body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">KaviAdmin</div>
+            </a>
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                MAIN
+            </div>
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog pageIcon"></i>
+                    <span>Pages</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="customComponentColor py-2 collapse-inner rounded">
+                      <ul id="divider" style="list-style-type:square">
+                        <li><a class="collapse-item text-light" href="#">Button1</a></li>
+                        <hr class="sidebar-divider">
+                        <li><a class="collapse-item text-light" href="#">Button2</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>App layout</span>
+                </a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Layouts
+            </div>
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#">
+                    <i class="fa fa-bolt"></i>
+                    <span>Layout Component</span>
+                </a>
+                <!--<div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Login Screens:</h6>
+                        <a class="collapse-item" href="login.html">Login</a>
+                        <a class="collapse-item" href="register.html">Register</a>
+                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+                        <div class="collapse-divider"></div>
+                        <h6 class="collapse-header">Other Pages:</h6>
+                        <a class="collapse-item" href="404.html">404 Page</a>
+                        <a class="collapse-item" href="blank.html">Blank Page</a>
+                    </div>
+                </div>-->
+            </li>
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Layout Options</span></a>
+            </li>
+            <div class="sidebar-heading">
+              PAGES
+            </div>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="table.html"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fa fa-table"></i>
+                    <span>Tables</span>
+                </a>
+                <!--<div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Login Screens:</h6>
+                        <a class="collapse-item" href="login.html">Login</a>
+                        <a class="collapse-item" href="register.html">Register</a>
+                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+                        <div class="collapse-divider"></div>
+                        <h6 class="collapse-header">Other Pages:</h6>
+                        <a class="collapse-item" href="404.html">404 Page</a>
+                        <a class="collapse-item" href="blank.html">Blank Page</a>
+                    </div>
+                </div>-->
+            </li>
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="form.html">
+                    <i class="fa fa-plus-square"></i>
+                    <span>Forms</span></a>
+            </li>
+            <!-- Nav Item - Tables -->
+
+          <!--  <li class="nav-item">
+                <a class="nav-link" href="tables.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Tables</span></a>
+            </li> --
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light navbarColor topbar static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <!--<button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>-->
+                    <!-- Topbar Search -->
+                    <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                                aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary searchColor" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <!--<li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a> -->
+                            <!-- Dropdown - Messages -->
+                          <!--  <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li> -->
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge notificationColor badge-counter">3+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Alerts Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-file-alt text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 12, 2019</div>
+                                        <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-success">
+                                            <i class="fas fa-donate text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 7, 2019</div>
+                                        $290.29 has been deposited into your account!
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-warning">
+                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 2, 2019</div>
+                                        Spending Alert: We've noticed unusually high spending for your account.
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                            </div>
+                        </li>
+                        <!-- Nav Item - Messages -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-envelope fa-fw"></i>
+                                <!-- Counter - Messages -->
+                                <span class="badge messageColor badge-counter">7</span>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="messagesDropdown">
+                                <h6 class="dropdown-header dropdownHeadingColor">
+                                    Message Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="./dist/img/undraw_profile_1.svg"
+                                            alt="...">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                    <div class="font-weight-bold">
+                                        <div class="text-truncate">Hi there! I am wondering if you can help me with a
+                                            problem I've been having.</div>
+                                        <div class="small text-gray-500">Ahsan Jawed · 58m</div>
+                                    </div>
+                                </a>
+                              <!--  <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
+                                            alt="...">
+                                        <div class="status-indicator"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">I have the photos that you ordered last month, how
+                                            would you like them sent to you?</div>
+                                        <div class="small text-gray-500">Jae Chun · 1d</div>
+                                    </div>
+                                </a>-->
+                                <!--<a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="img/undraw_profile_3.svg"
+                                            alt="...">
+                                        <div class="status-indicator bg-warning"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Last month's report looks great, I am very happy with
+                                            the progress so far, keep up the good work!</div>
+                                        <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+                                    </div>
+                                </a>-->
+                              <!--  <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
+                                            alt="...">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Am I a good boy? The reason I ask is because someone
+                                            told me that people say this to all dogs, even if they aren't good...</div>
+                                        <div class="small text-gray-500">Chicken the Dog · 2w</div>
+                                    </div>
+                                </a>-->
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                            </div>
+                        </li>
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="img-profile rounded-circle"
+                                    src="./dist/img/undraw_profile.svg">
+                                      <span class="ml-2 d-none d-lg-inline text-gray-600 small font-weight-bold">Muller</span>
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--Topbar End -->
+                <!-- Form  -->
+            <!--<div class="form-bg py-5">
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-md-center">
+                        <div class="col-md-8">
+                            <div class="form-container">
+                                <h3 class="title">User Registration</h3>
+                                <form class="form-horizontal">
+                                    <div class="form-group">
+                                        <label>User Name*</label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Email ID*</label>
+                                        <input class="form-control" type="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password*</label>
+                                        <input class="form-control" type="password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Confirm Password*</label>
+                                        <input class="form-control" type="password">
+                                    </div>
+                                    <h4 class="sub-title">Personal Information</h4>
+                                    <div class="form-group phone-no">
+                                        <label>Phone No*</label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                    <div class="form-group age">
+                                        <label>Age*</label>
+                                        <input class="form-control" type="number">
+                                    </div>
+                                    <button class="btn signin">Create Account</button>
+                                    <span class="user-login">Already Have an Account? Click Here to <a href="#">Login</a></span>
+                                </form>
+                                <div class="social-links">
+                                    <span>Or Connect With</span>
+                                    <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>-->
+              <form action="">
+                  <div class="container py-4 my-3" id="formContainer" style="background:white">
+                    <div class="row py-2 border-bottom">
+                      <div class="col-12"><h3 class="font-weight-bold">Staff Information</h3></div>
+                    </div>
+                    <div class="row px-md-5 mt-4" id="formRow1">
+                      <div class="col-md-2 col-4" id="label1" >
+                        <label class="font-weight-bold mt-1" for="formGroupExampleInput1">Name<span class="text-danger"> *</span></label>
+                      </div>
+                      <div class="col-md-6 col-8" id="field1">
+                        <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Enter Member Name" required>
+                      </div>
+                    </div>
+                    <div class="row px-md-5 mt-4" id="formRow2">
+                      <div class="col-md-2 col-4" id="label2">
+                        <label class="font-weight-bold mt-1" for="selectOne">Position<span class="text-danger"> *</span></label>
+                      </div>
+                      <div class="col-md-6 col-8" id="select1">
+                        <select class="custom-select" id="selectOne">
+                          <option selected>Select A Option</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row px-md-5 mt-4" id="formRow3">
+                      <div class="col-md-2 col-4" id="label3" >
+                        <label class="font-weight-bold mt-1" for="selectTwo">State<span class="text-danger"> *</span></label>
+                      </div>
+                      <div class="col-md-6 col-8" id="select2">
+                        <select class="custom-select" id="selectTwo">
+                          <option selected>Select A State</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row px-md-5 mt-4" id="formRow4">
+                      <div class="col-md-2 col-4" id="label4" >
+                        <label class="font-weight-bold mt-1" for="selectThree">Type<span class="text-danger"> *</span></label>
+                      </div>
+                      <div class="col-md-6 col-8" id="select3">
+                        <select class="custom-select" id="selectThree">
+                          <option selected>Select A Type</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row px-md-5 mt-4" id="formRow5">
+                      <div class="col-md-2 col-4" id="label5" >
+                        <label class="font-weight-bold mt-1" for="selectFour">Role<span class="text-danger"> *</span></label>
+                      </div>
+                      <div class="col-md-6 col-8" id="select5">
+                        <select class="custom-select" id="selectFour">
+                          <option selected>Select A Role</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row px-md-5 mt-4" id="formRow6">
+                      <div class="col-md-2 col-4" id="label6" >
+                        <label class="font-weight-bold mt-1" for="formGroupExampleInput2">Hourly Rate<span class="text-danger">*</span></label>
+                      </div>
+                      <div class="col-md-6 col-8" id="field2">
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter An Hourly Rate" required>
+                      </div>
+                    </div>
+                    <div class="row mt-4" id="row7">
+                      <div class="col-12">
+                        <h6 class="text-dark font-weight-bold">Account Details:</h6>
+                      </div>
+                    </div>
+                    <div class="row px-md-5 mt-4" id="formRow8">
+                      <div class="col-md-2 col-4" id="label3" >
+                        <label class="font-weight-bold mt-1" for="formGroupExampleInput3">Staff Email</label>
+                      </div>
+                      <div class="col-md-6 col-8" id="field3">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <i class="fa fa-envelope-o input-group-text" id="inputGroup-sizing-sm"></i>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Enter Email Address" id="formGroupExampleInput3" aria-label="" aria-describedby="basic-addon1">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row px-md-5 my-4" id="formRow9">
+                      <div class="col-md-2 col-4" id="label4" >
+                        <label class="font-weight-bold mt-1" for="formGroupExampleInput4">Staff Password</label>
+                      </div>
+                      <div class="col-md-6 col-8" id="field4">
+                        <input type="password" class="form-control" id="formGroupExampleInput4" placeholder="Enter Member Password" required>
+                      </div>
+                    </div>
+                    <div class="row border-top py-3 d-flex justify-content-md-start justify-content-center">
+                      <div class="col-12">
+                        <div class="btn-group btn-group-md">
+                          <button type="button" class="btn btn-danger ml-md-2 ml-1"><i class="fa fa-backward"></i> Go Back</button>
+                          <button type="button" class="btn btn-info ml-md-2 ml-1"><i class="fa fa-bookmark"></i> Save</button>
+                          <button type="button" class="btn btn-secondary ml-md-2 ml-1"><i class="fa fa-backward"></i> Go Back</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row py-3 d-flex justify-content-md-start justify-content-center">
+                      <div class="col-12">
+                        <div class="btn-group btn-group-md" role="group" aria-label="Basic example">
+                          <button type="button" class="btn btn-outline-success ml-md-2 ml-1"><i class="fa fa-backward"></i> Go Back</button>
+                          <button type="button" class="btn btn-outline-primary ml-md-2 ml-1"><i class="fa fa-bookmark"></i> Save</button>
+                          <button type="button" class="btn btn-outline-danger ml-md-2 ml-1"><i class="fa fa-backward"></i> Go Back</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row py-3 d-flex justify-content-md-start justify-content-center">
+                      <div class="col-12">
+                        <div class="btn-group btn-group-md" role="group" aria-label="Basic example">
+                          <button type="button" class="btn ml-md-2 ml-1" id="formButton1"><i class="fa fa-backward"></i> Go Back</button>
+                          <button type="button" class="btn ml-md-2 ml-1" id="formButton2"><i class="fa fa-bookmark"></i> Save</button>
+                          <button type="button" class="btn ml-md-2 ml-1" id="formButton3"><i class="fa fa-backward"></i> Go Back</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row py-3 d-flex justify-content-md-start justify-content-center">
+                      <div class="col-12">
+                        <div class="btn-group btn-group-md">
+                          <button type="button" class="btn btn-danger ml-md-2 ml-1"><i class="fa fa-backward"></i> Go Back</button>
+                          <button type="button" class="btn btn-info ml-md-2 ml-1"><i class="fa fa-bookmark"></i> Save</button>
+                          <button type="button" class="btn btn-secondary ml-md-2 ml-1"><i class="fa fa-backward"></i> Go Back</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              <!-- Form Container End -->
+            </div>
+            <!-- Footer -->
+            <footer class="sticky-footer">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>2020 KaviAdmin Designed By Ahsan Jawed</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- Bootstrap core JavaScript-->
+    <script src="./dist/vendor/jquery/jquery.min.js"></script>
+    <script src="./dist/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="./dist/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for all form.html-->
+    <!-- Page level plugins -->
+    <script src="./dist/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="./dist/custom/js/demo/chart-area-demo.js"></script>
+    <script src="./dist/custom/js/demo/chart-pie-demo.js"></script>
+    <!-- Scroll Up -->
+    <script src="./dist/custom/js/jquery.scrollUp.min.js"></script>
+    <!-- Custom Js and jQuery -->
+    <script src="./dist/custom/js/main.js"></script>
+</body>
+
+</html>

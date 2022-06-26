@@ -1,0 +1,217 @@
+/* General Style */
+.no-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.brand {
+    border-bottom: 1px solid #D6EAFF;
+}
+
+.brand img {
+    width: 130px;
+}
+
+.level-one {
+    margin-left: 0px;
+}
+
+.level-two {
+    margin-left: 30px;
+}
+
+.level-three {
+    margin-left: 60px;
+}
+
+.level-four {
+    margin-left: 90px;
+}
+
+.project-performance-card {
+    padding: 1.4em;
+    border: 1px solid #EBEDF3;
+    border-radius: 0.42rem;
+    margin-top: 10px;
+}
+
+input.hide-checkbox {
+    display: none
+}
+
+.section-rounded {
+    border-radius: 0.42rem !important;
+}
+
+.shadow-dark {
+    box-shadow: 0 0px 10px 0 rgba(127, 126, 143, 0.1);
+}
+
+.btn.btn-sm i.no-padding {
+    padding-right: 0 !important;
+}
+
+.table td {
+    vertical-align: middle !important;
+}
+
+.full-height {
+    height: 100%;
+}
+
+
+
+/* General DataTable Style */
+.table-hover tbody tr:hover {
+    background-color: #F8F8F9 !important;
+}
+.custom-dataTable .dataTable td {
+    padding: 0.5rem 0.5rem !important;
+}
+.custom-dataTable .dataTable td p{
+    margin-bottom: 0rem !important;
+}
+.custom-dataTable table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc {
+    padding-right: 10px !important;
+}
+.custom-dataTable th.sorting_desc::before,
+.custom-dataTable th.sorting_desc::after {
+    display : none !important;
+}
+.dataTables_wrapper table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before {
+    height: 28px;
+    width: 28px;
+    margin-top: -12px;
+    font-size: 20px;
+    content: ' \2295' !important;
+}
+
+.dataTables_wrapper table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before {
+    height: 28px;
+    width: 28px;
+    margin-top: -12px;
+    font-size: 20px;
+    content: ' \2297' !important;
+}
+
+
+/* General Card style */
+.card-header {
+    padding: 5px 1.25rem !important;
+    min-height: 50px !important;
+}
+
+.card-header-custom {
+    padding: 1rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #EBEDF3;
+    border-radius: calc(0.42rem - 1px) calc(0.42rem - 1px) 0 0;
+}
+
+.card-title-custom {
+    margin-bottom: 0px !important;
+    font-size: 1.25rem !important;
+}
+
+.card-body-custom {
+    padding: 1rem 1.25rem;
+}
+
+.card-footer-custom {
+    padding: 1.25rem 1.25rem;
+    background-color: #ffffff;
+    border-top: 1px solid #EBEDF3;
+    border-radius: 0.42rem;
+}
+
+.card-footer {
+    padding: 1.25rem 1.25rem !important;
+}
+
+.form-control[readonly] {
+    background-color: #F3F6F9 !important;
+}
+
+/* i {
+    color: inherit !important;
+} */
+
+a.only-icon i {
+    padding-right: 0 !important;
+}
+
+form .card-body {
+    padding: 2.25rem 2.25rem 0rem 2.25rem !important;
+}
+
+.form-group label.error {
+    color: #F64E60 !important;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .symbol.symbol-lg-120-car>img {
+        /* width: 100%; */
+        max-width: 120px !important;
+
+    }
+}
+
+.cover-tile-image {
+    text-align: right;
+}
+
+.cover-tile-text {
+    padding-left: 10px;
+}
+
+
+/* General Autocomplete style */
+.autocomplete-list ul {
+    list-style: none;
+    background-color: #F8F8F8;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.autocomplete-list ul li{
+    border-bottom: 1px solid #E3E3E3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.autocomplete-list ul p {
+    margin-bottom: 3px;
+}
+
+.autocomplete-list ul .client-name {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.autocomplete-list ul .client-phone {
+    font-size: 11px;
+}
+
+.autocomplete-list ul .client-company {
+    font-size: 11px;
+}
+
+
+/* General Nav pills style */
+.nav.nav-pills .nav-link {
+    background-color: #F5F5F5;
+}
+
+.backbtn{
+    float:left;
+}
+.nextbtn{
+    float:right;
+}
+
+/* General Dropdown button style */
+.dropdown-item {
+    padding: 0.35rem 1.25rem !important;
+}

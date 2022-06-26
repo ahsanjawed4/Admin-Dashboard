@@ -1,0 +1,34 @@
+// Include any default variable overrides here (though functions won't be available)
+
+// scss-docs-start theme-color-variables
+$primary:       #3699FF;
+$secondary:     #d7dae7;
+$success:       #0BB7AF;
+$info:          #0dcaf0;
+$warning:       #EE9D01;
+$danger:        #EE2D41;
+$light:         #E4E6EF;
+$dark:          #181C32;
+$black:         #000000;
+$white:         #ffffff;
+$light-gray:    #EEF0F8;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;
+// scss-docs-end theme-colors-map
+
+// Other Elements
+$body-bg: $light-gray;
+
+// Master File
+@import "../../bootstrap/scss/bootstrap";
